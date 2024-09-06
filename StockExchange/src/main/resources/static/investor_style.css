@@ -1,0 +1,95 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #6caae8; /* Vibrant blue */
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #4682b4; /* Slightly darker blue border */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+/* Buttons */
+button {
+    background-color: #ff6347; /* Vibrant orange-red */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e55347; /* Darker shade on hover */
+}
+
+/* Navigation */
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav button {
+    margin: 0 15px;
+    padding: 12px 25px;
+    font-size: 1.1em;
+}
+
+/* Section */
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Table */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Slight shadow for 3D effect */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f8ff; /* Alice blue */
+    color: #333;
+    font-weight: bold;
+}
+
+td button {
+    background-color: #32cd32; /* Vibrant lime green */
+    padding: 8px 15px;
+    font-size: 0.9em;
+}
+
+td button:hover {
+    background-color: #2e8b57; /* Darker green on hover */
+}

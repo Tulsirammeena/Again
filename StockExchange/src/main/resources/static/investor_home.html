@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investor's Homepage</title>
+    <link rel="stylesheet" href="investor_style.css">
+</head>
+<body>
+    <header>
+        <h1 id="investorName">Investor Name</h1>
+        <nav><a href="login1.html"><button id="logoutButton">Logout</button></a></nav>
+        
+    </header>
+    <nav>
+        <a href="portfolio.html">
+            <button id="viewPortfolio">View Portfolio</button>
+        </a>
+        <a href="order_history.html">
+            <button id="viewOrderHistory">View Order History</button>
+        </a>
+
+
+        
+        
+    </nav>
+    <section id="stocksSection">
+        <table id="stocksTable">
+            <thead>
+                <tr>
+                    <th>Stock Symbol</th>
+                    <th>Company Name</th>
+                    <th>Price</th>
+                    <th>Volume</th>
+                    <th>Percentage Change</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="stocksTableBody">
+                <!-- Example row -->
+               
+            </tbody>
+            
+        </table>
+    </section>
+
+    <script src="investor_scripts.js"></script>
+</body>
+</html>

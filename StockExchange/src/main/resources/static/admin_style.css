@@ -1,0 +1,184 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #1e90ff; /* Vibrant blue */
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 10px;
+}
+
+.header img {
+    height: 50px; /* Adjust size as needed */
+}
+
+.header h1 {
+    margin-left: 20px;
+    font-size: 1.8em;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: space-between;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1em;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.nav input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.nav button {
+    background-color: #ff6347; /* Vibrant orange-red */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.nav button:hover {
+    background-color: #e55347; /* Darker shade on hover */
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1200px; /* Adjust width for larger content */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* File Upload Section */
+.file-upload {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.file-upload h2 {
+    color: #1e90ff; /* Vibrant blue */
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.file-upload input[type="file"] {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1em;
+    margin-right: 10px;
+}
+
+.file-upload button {
+    background-color: #ff6347; /* Vibrant lime green */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+.file-upload button:hover {
+    background-color: #2e8b57; /* Darker green on hover */
+}
+
+/* Performance Table */
+.performance-table {
+    margin-bottom: 30px;
+}
+
+.performance-table h2 {
+    color: #1e90ff; /* Vibrant blue */
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.performance-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Slight shadow for 3D effect */
+}
+
+.performance-table th, .performance-table td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.performance-table th {
+    background-color: #f0f8ff; /* Alice blue */
+    color: #333;
+    font-weight: bold;
+}
+
+/* Error Handling Section */
+.error-handling {
+    text-align: center;
+}
+
+.error-handling h2 {
+    color: #1e90ff; /* Vibrant blue */
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.error-handling button {
+    background-color: #ff6347; /* Vibrant orange-red */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+.error-handling button:hover {
+    background-color: #e55347; /* Darker shade on hover */
+}

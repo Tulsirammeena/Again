@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="admin_style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img src="logo.png" alt="LOGO">
+            <h1>Admin Dashboard</h1>
+        </div>
+        <div class="nav">
+            <!-- <a href="investor_home.html">Home</a> -->
+            <a href="order_history.html">Order History</a>
+            <a href="admin.html">Admin</a>
+            <!-- <a href="#support">Support</a> -->
+            <input type="text" id="search" placeholder="search">
+            <a href="login1.html"><button logout-btn">Log Out</button></a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="file-upload">
+            <h2>Upload Company Data</h2>
+            <form id ="form-container" enctype="multipart/form-data">
+                <input type="file" id="file" name="file" accept=".csv" required>
+                <button type="submit">Upload</button>
+            </form>
+        </div>
+
+        <!-- <div class="compute-orders">
+            <h2>Pending Order Processing</h2>
+            <button id="processOrderBtn">Compute Orders</button>
+        </div>
+        <div class="performance-table">
+            <h2>Company Performance</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Symbol</th>
+                        <th>Company Name</th>
+                        <th>Description</th>
+                        <th>Share Price</th>
+                         <th>Profit</th> 
+                        <th>Volume</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   
+                </tbody>
+            </table> 
+        </div>-->
+        
+        <!-- <div class="error-handling">
+            <h2>Error Handling</h2>
+            <button id="error-btn">Handle Errors</button>
+        </div> -->
+    </div>
+    <script src="admin_style.js"></script>
+</body>
+</html>
